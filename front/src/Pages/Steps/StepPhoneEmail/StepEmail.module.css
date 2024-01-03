@@ -1,0 +1,33 @@
+.buttonwrap{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+.cardwrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.tabbtn{
+    width: 60px;
+    height: 60px;
+    background: #262626;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tabbtn:last-child{
+    margin-left: 20px;
+}
+.active{
+    background: #000fff;
+}
+.actionbtnwrap{
+    composes: actionbtnwrap from '../../../App.module.css'
+}
+.bottomParagraph{
+    composes: bottomParagraph from '../../../App.module.css'
+}

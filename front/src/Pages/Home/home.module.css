@@ -1,0 +1,21 @@
+.txt{
+    font-size: 22px;
+    line-height: 1.6px;
+    color: #C4C5C5;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.cardwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.signinwrapper{
+    margin-top: 20px;
+}
+.hasinvite{
+    color: #0077ff;
+}

@@ -1,0 +1,9 @@
+.cardWrapper {
+    composes:cardWrapper from '../../../App.module.css'
+}
+.bottomParagraph{
+    composes: bottomParagraph from '../../../App.module.css'
+}
+.actionButtonwrap{
+    margin-top: 40px;
+}
